@@ -1,0 +1,31 @@
+.navs-container {
+  background-color: #fff;
+
+  .nav-item {
+
+
+    .nav-link {
+        // background-color: red;
+        padding: 12px 50px;
+        // border-bottom: 1px solid rgba(0,0,0,0);
+        border: none;
+        color: rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 15px;
+        border-bottom: 3px solid #fff;
+        &:hover {
+          border: none;
+          border-bottom: 3px solid rgb(64, 170, 207);
+          color: rgb(64, 170, 207);
+        }
+    }
+    .nav-link.active {
+        color: rgb(64, 170, 207);
+        border: none;
+        border-bottom: 3px solid rgb(64, 170, 207);
+        &:hover {
+          color: rgb(64, 170, 207);
+        }
+    }
+  }
+}
