@@ -10,10 +10,7 @@ const UserSchema = new Schema({
   profile: {
     name: {type: String, default: ''},
     picture: {type: String, default: ''}
-  },
-  watchList: [
-    {type: String}
-  ]
+  }
 })
 
 UserSchema.pre('save', function(next){
